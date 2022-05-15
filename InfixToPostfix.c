@@ -66,14 +66,3 @@ char *toPostfix(char* infix) {
     #undef push
     return postfix;
 }
-
-
-
-int main() {
-    char *expr="A*(B+C)-D";
-    char *res=toPostfix(expr);
-    
-
-    printf("%s -> %s\n", expr, res);
-}
-
